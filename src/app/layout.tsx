@@ -1,12 +1,13 @@
 import { Inter } from 'next/font/google';
 
 import './globals.css';
-import { ThemeProvider } from '../../components/theme-provider';
+
+import NavBar from '@/components/navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Whatevs',
+  title: 'José Mota',
 };
 
 export default function RootLayout({
@@ -17,9 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      <div className="bg-black text-white min-h-screen flex flex-col">
+      <NavBar />
           {children}
-        </ThemeProvider>
+        </div>
       </body>
     </html>
   );

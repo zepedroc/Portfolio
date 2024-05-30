@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 
 export default function NavBar() {
@@ -9,13 +7,13 @@ export default function NavBar() {
           <Link href="#">Jose Mota</Link>
         </div>
         <div className="flex items-center gap-6">
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/">
             Home
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/work">
             Work
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/certifications">
             Certifications
           </Link>
           <Link className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200" href="#">

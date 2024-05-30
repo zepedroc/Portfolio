@@ -1,46 +1,44 @@
 import Link from 'next/link';
 
-import NavBar from '@/components/navbar';
+import { GithubIcon, LinkedinIcon, MailIcon } from '../icons/icons';
 
 export default function Home() {
   return (
-    <>
-      <NavBar />
-      <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <div className="space-y-4">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Unlock the Power of AI</h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Our AI-powered platform helps you build intelligent applications that transform your business.
-                </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link
-                    className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                    href="/chatbot"
-                  >
-                    Get Started
-                  </Link>
-                  <Link
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                    href="/images"
-                  >
-                    Generate images
-                  </Link>
-                </div>
-              </div>
-              {/* <Image
-                alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square"
-                height="550"
-                src="/ai_homepage.jpeg"
-                width="550"
-              /> */}
-            </div>
+      <>
+      <main className="flex-1 flex flex-col items-center justify-center px-6 pt-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+          <div className="flex flex-col items-start justify-center">
+            <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm José Mota</h1>
+            <p className="text-lg md:text-xl mt-4">
+              I'm a passionate web developer with a strong background in front-end and back-end technologies.
+            </p>
           </div>
-        </section>
+          <div className="flex justify-center">
+            <img
+              alt="José Mota"	
+              className="rounded-full"
+              height={300}
+              src="/placeholder.svg"
+              style={{
+                aspectRatio: "300/300",
+                objectFit: "cover",
+              }}
+              width={300}
+            />
+          </div>
+        </div>
       </main>
-    </>
+      <footer className="bg-black/50 backdrop-blur-md py-4 px-6 flex justify-center items-center gap-4">
+        <Link className="hover:text-gray-400" href="#" target="_blank">
+          <GithubIcon className="w-6 h-6" />
+        </Link>
+        <Link className="hover:text-gray-400" href="#" target="_blank">
+          <LinkedinIcon className="w-6 h-6" />
+        </Link>
+        <Link className="hover:text-gray-400" href="#" target="_blank">
+          <MailIcon className="w-6 h-6" />
+        </Link>
+      </footer>
+      </>
   );
 }
