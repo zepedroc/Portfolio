@@ -1,6 +1,9 @@
 import Link from 'next/link';
 
+import { HOMEPAGE_ICONS } from '../constants/homepage';
 import { GithubIcon, LinkedinIcon, MailIcon } from '../icons/icons';
+
+import IconCloud from '@/components/magicui/icon-cloud';
 
 export default function Home() {
   return (
@@ -14,17 +17,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
-              alt="José Mota"
-              className="rounded-full"
-              height={300}
-              src="/placeholder.svg"
-              style={{
-                aspectRatio: '300/300',
-                objectFit: 'cover',
-              }}
-              width={300}
-            />
+            <IconCloud iconSlugs={HOMEPAGE_ICONS} />
           </div>
         </div>
       </main>
