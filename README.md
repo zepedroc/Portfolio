@@ -8,4 +8,5 @@
 ### Tools / Libraries:
 
 - v0.dev
+- shadcn/ui
 - Magic UI
