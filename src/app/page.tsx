@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import NavBar from '@/components/navbar';
@@ -31,13 +30,13 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <Image
+              {/* <Image
                 alt="Hero"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square"
                 height="550"
                 src="/ai_homepage.jpeg"
                 width="550"
-              />
+              /> */}
             </div>
           </div>
         </section>
