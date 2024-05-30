@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon, MailIcon } from '../icons/icons';
 
 export default function Home() {
   return (
-      <>
+    <>
       <main className="flex-1 flex flex-col items-center justify-center px-6 pt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
           <div className="flex flex-col items-start justify-center">
@@ -15,13 +15,13 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <img
-              alt="José Mota"	
+              alt="José Mota"
               className="rounded-full"
               height={300}
               src="/placeholder.svg"
               style={{
-                aspectRatio: "300/300",
-                objectFit: "cover",
+                aspectRatio: '300/300',
+                objectFit: 'cover',
               }}
               width={300}
             />
@@ -29,16 +29,16 @@ export default function Home() {
         </div>
       </main>
       <footer className="bg-black/50 backdrop-blur-md py-4 px-6 flex justify-center items-center gap-4">
-        <Link className="hover:text-gray-400" href="#" target="_blank">
+        <Link className="hover:text-gray-400" href="https://github.com/zepedroc" target="_blank">
           <GithubIcon className="w-6 h-6" />
         </Link>
-        <Link className="hover:text-gray-400" href="#" target="_blank">
+        <Link className="hover:text-gray-400" href="https://www.linkedin.com/in/josé-pedro-mota-7395a6191/" target="_blank">
           <LinkedinIcon className="w-6 h-6" />
         </Link>
-        <Link className="hover:text-gray-400" href="#" target="_blank">
+        <Link className="hover:text-gray-400" href="mailto:zepedrocm@hotmail.com">
           <MailIcon className="w-6 h-6" />
         </Link>
       </footer>
-      </>
+    </>
   );
 }
