@@ -11,9 +11,9 @@ export default function Home() {
       <main className="flex-1 flex flex-col items-center justify-center px-6 pt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
           <div className="flex flex-col items-start justify-center">
-            <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm José Mota</h1>
+            <h1 className="text-4xl md:text-6xl font-bold">{"Hi, I'm José Mota"}</h1>
             <p className="text-lg md:text-xl mt-4">
-              I'm a passionate web developer with a strong background in front-end and back-end technologies.
+              {"I'm a passionate web developer with a strong background in front-end and back-end technologies."}
             </p>
           </div>
           <div className="flex justify-center">
