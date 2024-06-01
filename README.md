@@ -10,3 +10,7 @@
 - v0.dev
 - shadcn/ui
 - Magic UI
+
+### Inspirations:
+
+- https://brittanychiang.com/

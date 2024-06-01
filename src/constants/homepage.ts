@@ -17,6 +17,7 @@ export const HOMEPAGE_ICONS = [
   'sonarqube',
   'graphql',
   'gitlab',
+  'prettier',
   'Nest.JS', // not showing up
   'Visual Studio Code', // not showing up
   'Copilot', // not showing up

@@ -54,7 +54,7 @@ export type DynamicCloudProps = {
 
 type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
 
-export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
+export default function IconCloud({ iconSlugs }: Readonly<DynamicCloudProps>) {
   const [data, setData] = useState<IconData | null>(null);
 
   useEffect(() => {
