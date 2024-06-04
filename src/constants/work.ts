@@ -3,35 +3,40 @@ export const experiences = [
     role: 'Javascript Developer',
     company: 'Emergn',
     duration: 'Jan 2023 - Present',
-    project: 'VFQ: Emergn Learning Platform',
+    project: 'Emergn Learning Platform',
     description:
-      "- Developing new features on VFQ's website;\n- Optimizing and refactoring old code;\n- Creating unit/integration tests to maintain project's reliability.",
-    technologies: ['NextJs', 'ReactJS', 'NodeJS', 'Cypress', 'Git', 'DatoCMS', 'Typescript', 'SASS', 'MongoDB'],
+      'I contributed to the Emergn Learning Platform by developing new features, including an analytics dashboard and a chatbot. I optimized and refactored existing code and created integration tests to enhance project reliability.',
+    technologies: ['NextJs', 'NestJS', 'Cypress', 'Git', 'DatoCMS', 'Typescript', 'SASS', 'MongoDB', 'LlamaIndex'],
+    link: 'https://emergn.com',
   },
   {
     role: 'Javascript Developer',
     company: 'Emergn',
     duration: 'Jun 2022 - Jan 2023',
-    project: 'Project for SAP: Enhance Fiori Elements',
+    project: 'SAP: Enhance Fiori Elements',
     description:
-      'Developing new frontend components to be used in Fiori Elements Apps; /n - Updating old components to fulfill new requirements.',
+      'Enhanced Fiori Elements by developing new frontend components for use in Fiori Apps. Additionally, updated existing components to meet new requirements.',
     technologies: ['Javascript', 'Typescript', 'XML', 'SAPUI5', 'Git', 'Jest'],
+    link: 'https://sap.com',
   },
   {
     role: 'Frontend Developer',
     company: 'Natixis',
     duration: 'nov de 2020 - dez de 2021',
     project: 'Internal websites',
-    description: '- Developing new components on Sharepoint Framework.',
+    description:
+      'Transformed legacy internal sites into a modern ReactJS application by developing new components using the SharePoint Framework.',
     technologies: ['ReactJS', 'TypeScript', 'SASS', 'Sharepoint'],
+    link: 'https://cib.natixis.com/home/',
   },
   {
     role: 'Full Stack Developer',
     company: 'Helppier',
     duration: 'fev de 2018 - nov de 2020',
-    project: 'Widget to create step by step tutorials on clients websites',
+    project: 'Widget to create step by step tutorials',
     description:
-      'Adding features to company’s widget, including both building new screens and creating the whole backend logic.',
+      'Developed a step-by-step tutorial widget for client websites, enhancing existing features and building new screens. Responsible for creating the entire backend logic.',
     technologies: ['ReactJS', 'Redux', 'NodeJS', 'MongoDB', 'MeteorJS', 'SASS'],
+    link: 'https://www.helppier.com',
   },
 ];

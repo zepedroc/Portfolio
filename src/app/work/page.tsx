@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-import Experience from '@/components/experience';
+import ExperienceCard from '@/components/experience-card';
 import { experiences } from '@/src/constants/work';
 
 export default function Home() {
@@ -12,9 +12,9 @@ export default function Home() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ ease: 'easeInOut', duration: 0.5 }}
     >
-      <div className="container mx-auto mt-28 p-4">
+      <div className="container mx-auto mt-28 max-w-[50vw] p-4">
         {experiences.map((exp) => (
-          <Experience key={exp.duration} {...exp} />
+          <ExperienceCard key={exp.duration} {...exp} />
         ))}
       </div>
     </motion.div>

@@ -21,4 +21,5 @@ export const HOMEPAGE_ICONS = [
   'Nest.JS', // not showing up
   'Visual Studio Code', // not showing up
   'Copilot', // not showing up
+  'LlamaIndex', // not showing up
 ];
