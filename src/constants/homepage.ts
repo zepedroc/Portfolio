@@ -18,8 +18,9 @@ export const HOMEPAGE_ICONS = [
   'graphql',
   'gitlab',
   'prettier',
-  'Nest.JS', // not showing up
-  'Visual Studio Code', // not showing up
-  'Copilot', // not showing up
-  'LlamaIndex', // not showing up
+  'express',
+  'vercel',
+  'docker',
+  'githubcopilot',
+  'nestjs',
 ];
