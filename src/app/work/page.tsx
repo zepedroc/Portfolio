@@ -12,7 +12,7 @@ export default function Home() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ ease: 'easeInOut', duration: 0.5 }}
     >
-      <div className="container mx-auto mt-28 max-w-[50vw] p-4">
+      <div className="container mx-auto mt-28 max-w-[80vw] p-4 lg:max-w-[50vw]">
         {experiences.map((exp) => (
           <ExperienceCard key={exp.duration} {...exp} />
         ))}
