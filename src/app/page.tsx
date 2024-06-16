@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="flex items-center justify-center gap-4 bg-black/50 px-6 py-4 backdrop-blur-md">
+      <footer className="flex items-center justify-center gap-4 bg-gray-950/50 px-6 py-4 backdrop-blur-md">
         <Link className="hover:text-gray-400" href="https://github.com/zepedroc" target="_blank">
           <GithubIcon className="h-6 w-6" />
         </Link>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
   return (
-    <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-center bg-black/50 px-6 py-4 backdrop-blur-md">
+    <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-center bg-gray-950/50 px-6 py-4 backdrop-blur-md">
       <div className="flex items-center gap-6">
         <Link className="duration-400 transition-transform hover:scale-105 hover:underline" href="/">
           Home

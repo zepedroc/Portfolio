@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rubik.className}>
-        <div className="flex min-h-screen flex-col bg-black text-white">
+        <div className="flex min-h-screen flex-col bg-gray-950 text-white">
           <NavBar />
           {children}
         </div>
