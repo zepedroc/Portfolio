@@ -32,7 +32,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
         <h3 className="font-medium leading-snug text-slate-200">
           <div>
             <a
-              className="group/link inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:underline focus-visible:text-blue-300"
+              className="group/link inline-flex items-baseline text-lg font-medium leading-tight text-slate-200 hover:underline focus-visible:text-blue-300"
               href={link}
               target="_blank"
               rel="noreferrer noopener"
