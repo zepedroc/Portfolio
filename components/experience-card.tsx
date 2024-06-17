@@ -66,7 +66,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
         <ul className="mt-4 flex flex-wrap" aria-label="Technologies used">
           {technologies.map((tech: string) => (
             <li key={tech} className="mr-1.5 mt-2">
-              <div className="flex items-center rounded-full border-r border-s border-t border-blue-500 bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full border-b border-r border-s border-t border-blue-500 bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5">
                 {tech}
               </div>
             </li>
