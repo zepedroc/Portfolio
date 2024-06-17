@@ -15,10 +15,10 @@ export default function Home() {
     >
       <div className="container mx-auto mt-28 max-w-[80vw] p-4 lg:max-w-[50vw]">
         {experiences.map((exp, index) => (
-          <>
-            <ExperienceCard key={exp.duration} {...exp} />
+          <div key={exp.duration}>
+            <ExperienceCard {...exp} />
             {index < experiences.length - 1 && <Separator className="bg-slate-300" />}
-          </>
+          </div>
         ))}
       </div>
     </motion.div>

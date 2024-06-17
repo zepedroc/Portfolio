@@ -1,4 +1,4 @@
-import { Inter, Rubik } from 'next/font/google';
+import { Rubik } from 'next/font/google';
 
 import './globals.css';
 

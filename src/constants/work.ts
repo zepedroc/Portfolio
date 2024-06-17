@@ -8,7 +8,6 @@ export const experiences = [
       'I contributed to the Emergn Learning Platform by developing new features, including an analytics dashboard and a chatbot. I optimized and refactored existing code and created integration tests to enhance project reliability.',
     technologies: ['NextJs', 'NestJS', 'Cypress', 'Git', 'DatoCMS', 'Typescript', 'SASS', 'MongoDB', 'LlamaIndex'],
     link: 'https://emergn.com',
-    color: 'red',
   },
   {
     role: 'Javascript Developer',
@@ -19,7 +18,6 @@ export const experiences = [
       'Enhanced Fiori Elements by developing new frontend components for use in Fiori Apps. Additionally, updated existing components to meet new requirements.',
     technologies: ['Javascript', 'Typescript', 'XML', 'SAPUI5', 'Git', 'Jest'],
     link: 'https://sap.com',
-    color: 'red',
   },
   {
     role: 'Frontend Developer',
@@ -30,7 +28,6 @@ export const experiences = [
       'Transformed legacy internal sites into a modern ReactJS application by developing new components using the SharePoint Framework.',
     technologies: ['ReactJS', 'TypeScript', 'SASS', 'Sharepoint'],
     link: 'https://cib.natixis.com/home/',
-    color: 'purple',
   },
   {
     role: 'Full Stack Developer',
@@ -41,6 +38,5 @@ export const experiences = [
       'Developed a step-by-step tutorial widget for client websites, enhancing existing features and building new screens. Responsible for creating the entire backend logic.',
     technologies: ['ReactJS', 'Redux', 'NodeJS', 'MongoDB', 'MeteorJS', 'SASS'],
     link: 'https://www.helppier.com',
-    color: 'blue',
   },
 ];
