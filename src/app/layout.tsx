@@ -1,6 +1,7 @@
 import { Rubik } from 'next/font/google';
 
 import './globals.css';
+import App from './app';
 
 import NavBar from '@/components/navbar';
 
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={rubik.className}>
         <div className="flex min-h-screen flex-col bg-gray-900 text-white">
           <NavBar />
-          {children}
+          <App>{children}</App>
         </div>
       </body>
     </html>
