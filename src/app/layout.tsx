@@ -1,4 +1,6 @@
 import { Rubik } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import './globals.css';
 import App from './app';
@@ -26,6 +28,8 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col bg-gray-900 text-white">
           <NavBar />
           <App>{children}</App>
+          <SpeedInsights />
+          <Analytics />
         </div>
       </body>
     </html>
