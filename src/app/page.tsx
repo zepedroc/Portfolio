@@ -26,14 +26,14 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex items-center justify-center gap-4 bg-gray-900/50 px-6 py-4 backdrop-blur-md">
-        <Link className="hover:text-gray-400" href="https://github.com/zepedroc" target="_blank">
-          <GithubIcon className="h-6 w-6" />
+        <Link className="h-6 w-6" href="https://github.com/zepedroc" target="_blank">
+          <GithubIcon className="transition-transform duration-200 hover:-translate-y-1" />
         </Link>
-        <Link className="hover:text-gray-400" href="https://www.linkedin.com/in/josé-pedro-mota-7395a6191/" target="_blank">
-          <LinkedinIcon className="h-6 w-6" />
+        <Link className="h-6 w-6" href="https://www.linkedin.com/in/josé-pedro-mota-7395a6191/" target="_blank">
+          <LinkedinIcon className="transition-transform duration-200 hover:-translate-y-1" />
         </Link>
-        <Link className="hover:text-gray-400" href="mailto:zepedrocm@hotmail.com">
-          <MailIcon className="h-6 w-6" />
+        <Link className="h-6 w-6" href="mailto:zepedrocm@hotmail.com">
+          <MailIcon className="transition-transform duration-200 hover:-translate-y-1" />
         </Link>
       </footer>
     </>
