@@ -4,7 +4,7 @@ export const useCursorLightEffect = () => {
   useEffect(() => {
     const cursor = document.createElement('div');
     cursor.id = 'cursor-light-effect';
-    cursor.className = 'pointer-events-none fixed inset-0 transition duration-300 lg:absolute';
+    cursor.className = 'pointer-events-none fixed inset-0 transition duration-300';
 
     document.body.appendChild(cursor);
 
